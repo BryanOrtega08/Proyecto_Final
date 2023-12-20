@@ -3,7 +3,7 @@
 /* Estilos para el encabezado */
 .header {
   background-color: #3498db; /* Color azul */
-  height: 50px; /* Ajusta la altura según tus preferencias */
+  height: 100px; /* Ajusta la altura según tus preferencias */
 }
 
 /* Estilos para el contenedor principal */
@@ -22,7 +22,7 @@
 .footer {
   background-color: #007bff;
   color: #fff;
-  height: 50px; /* Ajusta la altura según tus preferencias */
+  height: 40px; /* Ajusta la altura según tus preferencias */
   padding: 10px;
   text-align: center;
 }
