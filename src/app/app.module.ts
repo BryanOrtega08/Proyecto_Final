@@ -1,24 +1,18 @@
+// app.module.ts
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { RolComponent } from '../rol/rol.component';
-import { CursoComponent } from '../curso/curso.component';
-import { MenuComponent } from '../menu/menu.component';
-import { PeriodosComponent } from '../periodos/periodos.component';
-//import { PruebaComponent } from './prueba/prueba.component';
+import { LoginComponent } from 'src/login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    RolComponent,
-    CursoComponent,
-    MenuComponent,
-    PeriodosComponent,
+    LoginComponent
+    // Agrega otros componentes aquí si es necesario
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent],
+  bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule { }
