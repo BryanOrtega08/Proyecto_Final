@@ -7,6 +7,7 @@ import { RolComponent } from './rol/rol.component';
 import { CursoComponent } from './curso/curso.component';
 import { MenuComponent } from './menu/menu.component';
 import { PeriodosComponent } from './periodos/periodos.component';
+import { PruebaComponent } from './prueba/prueba.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PeriodosComponent } from './periodos/periodos.component';
     RolComponent,
     CursoComponent,
     MenuComponent,
-    PeriodosComponent
+    PeriodosComponent,
+    PruebaComponent
   ],
   imports: [
     BrowserModule,
