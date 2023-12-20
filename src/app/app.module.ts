@@ -7,7 +7,6 @@ import { RolComponent } from './rol/rol.component';
 import { CursoComponent } from './curso/curso.component';
 import { MenuComponent } from './menu/menu.component';
 import { PeriodosComponent } from './periodos/periodos.component';
-import { PruebaComponent } from './prueba/prueba.component';
 
 @NgModule({
   declarations: [
@@ -16,13 +15,9 @@ import { PruebaComponent } from './prueba/prueba.component';
     CursoComponent,
     MenuComponent,
     PeriodosComponent,
-    PruebaComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
