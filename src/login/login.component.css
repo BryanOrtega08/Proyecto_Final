@@ -3,8 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    width: auto;
-    height: auto;
 }
 
 body {
@@ -21,7 +19,7 @@ body {
 }
 
 .info {
-    background-image: url(imagenes/logo.JPG);
+    background-image: url(src/imagenes/logo.JPG);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -47,44 +45,43 @@ body {
 
 .txt-2 {
     color: #fff;
-    font-size: 18px ;
+    font-size: 18px;
 }
 
 .form {
     padding: 150px 100px;
-    width: 50% ;
+    width: 50%;
     text-align: center;
     background-color: #0f579e;
 }
 
 .form h2 {
     color: #fff;
-    font-size: 30px ;
+    font-size: 30px;
     margin-bottom: 25px;
 }
 
 .form p {
-    font-size: 16px ;
+    font-size: 16px;
     color: #fff;
     margin-bottom: 25px;
 }
 
-.inputs  {
-    display: flex ;
+.inputs {
+    display: flex;
     flex-direction: column;
 }
 
-.box  {
+.box {
     background-color: #F9F9F9;
-    outline: none ;
-    border-color: #097EF6;
-    border-width: 0px 0px 0px 5px;
-    border-style: solid;
+    outline: none;
+    border: 5px solid #097EF6;
+    border-width: 0 0 0 5px;
     padding: 15px 35px;
     margin-bottom: 20px;
 }
 
-.inputs  a{
+.inputs a {
     color: #fff;
     text-decoration: none;
     font-size: 15px;

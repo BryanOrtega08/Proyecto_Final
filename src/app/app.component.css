@@ -1,0 +1,21 @@
+/* app.component.css */
+
+/* Estilos para el contenedor principal */
+.container-fluid {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Establecer la altura mínima al 100% de la altura visible */
+}
+
+/* Estilos para el contenido y el pie de página */
+.row {
+  flex: 1; /* Hace que la fila ocupe todo el espacio disponible */
+}
+
+/* Estilos para el pie de página */
+.footer {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
